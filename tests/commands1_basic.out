@@ -1,0 +1,31 @@
+EXIT exit from application
+COMMANDS display the command list
+
+LIST ACCOUNTS displays all accounts in system
+LIST TRANSACTIONS displays all transactions in system
+
+DETAILS <accno> displays all details about bank account
+BALANCE <accno> displays the current balance of bank account
+
+HISTORY <accno> displays all transactions involving an account
+OUTGOING <accno> displays all transactions paid by account
+INCOMING <accno> displays all transactions received by account
+
+CREATE <first> <last> [<balance>] creates a bank account
+RENAME <accno> <first> <last> renames a bank account
+
+PAY <sender> <receiver> <amount> transfers money between account
+TRANSACTION <id> displays the transaction details
+CANCEL <id> makes a copy of the transaction with receiver/sender swapped
+
+ARCHIVE <ledgerFile> <accountFile> stores the transaction history as a ledger
+RECOVER <ledgerFile> <accountFile> restores a ledger
+
+MERGE <accno …> transfers all funds from listed accounts into the first account
+
+MAX displays the highest balance from all accounts
+MIN displays the lowest balance from all accounts
+MEAN displays the average balance
+TOTAL displays the amount of money stored by bank
+bye
+INFO1113

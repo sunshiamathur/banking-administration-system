@@ -1,0 +1,4 @@
+CREATE Alice Smith 100
+CREATE Bob Jones 500
+TOTAL
+EXIT

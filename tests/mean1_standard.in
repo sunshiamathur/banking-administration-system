@@ -1,0 +1,5 @@
+CREATE Alice Smith 100
+CREATE Bob Jones 500
+CREATE Charlie Brown 300
+MEAN
+EXIT

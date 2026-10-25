@@ -1,0 +1,6 @@
+CREATE Jane Doe 1000
+ARCHIVE backup_ledger.txt backup_accounts.txt
+CREATE Bob Builder 500
+RECOVER backup_ledger.txt backup_accounts.txt
+LIST ACCOUNTS
+EXIT
